@@ -24,3 +24,9 @@ jobs:
 
     - name: Build AngularJS Project
       run: npm run build
+
+    - name: Upload Build Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: build-files
+        path: dist/

@@ -5,7 +5,7 @@ import {Component} from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <h1>Default</h1>
+    <h1>Default1</h1>
   `,
   styleUrls: ['./app.component.css'],
 })
